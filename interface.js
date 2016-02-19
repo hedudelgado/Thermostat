@@ -30,10 +30,10 @@ $(document).ready(function() {
 	})
 
 	function updateTemp() {
-		$('#temperature').text(thermostat.temperature);
+		$("#temperature").text(thermostat.temperature);
 		$('#temperature').attr('class', thermostat.usageLevel());
 	};
-});
+})	;
 
 
 
